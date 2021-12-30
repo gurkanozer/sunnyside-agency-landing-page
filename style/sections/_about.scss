@@ -26,7 +26,6 @@
     }
     &__link{
         position: relative;
-        z-index: -1;
         &::after{
             position: absolute;
             content: "";

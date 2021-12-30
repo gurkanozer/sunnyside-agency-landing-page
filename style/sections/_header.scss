@@ -4,7 +4,7 @@ header{
     left: 0;
     width: 100%;
     background: $color-header-bg;
-    
+    z-index: 10;
     .header__container{
         padding:rem(30) rem(24);
         display: flex;
