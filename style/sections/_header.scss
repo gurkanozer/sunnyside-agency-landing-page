@@ -18,7 +18,7 @@ header{
         border: none;
         outline: none;
         cursor: pointer;
-        background: url('/images/icon-hamburger.svg') no-repeat center center;
+        background: url('../images/icon-hamburger.svg') no-repeat center center;
         width: rem(28);
         height: rem(28);
         @include mq($md-screen) {
