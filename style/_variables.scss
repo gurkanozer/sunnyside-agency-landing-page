@@ -1,0 +1,33 @@
+
+
+/**COLORS**/
+$color-soft-red: hsl(7, 99%, 70%);
+$color-yellow: hsl(51, 100%, 49%);
+$color-graphic-design-text:hsl(167, 40%, 24%);
+$color-photography-text: hsl(198, 62%, 26%);
+$color-footer-text: hsl(168, 34%, 41%);
+
+$color-footer-bg:hsl(167,44%,70%);
+$color-vdd-blue:hsl(212, 27%, 19%);
+$color-vdg-blue: hsl(213, 9%, 39%);
+$color-dg-blue:hsl(232, 10%, 55%);
+$color-g-blue: hsl(210, 4%, 67%);
+$color-white: hsl(0, 0%, 100%);
+$color-header-bg:hsl(200, 100%, 62%);
+
+/**FONTS*/
+$font-primary: 'Barlow',
+sans-serif;
+$font-secondary:'Fraunces',
+serif;
+
+/**SCREEN SIZES*/
+$sm-screen: 576px;
+$md-screen:768px;
+$lg-screen:1164px;
+$max-size:rem(1164);
+
+/**FONT WEIGHT**/
+$fw-regular:600;
+$fw-medium:700;
+$fw-bold:900;

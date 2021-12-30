@@ -1,0 +1,32 @@
+.hero{
+    width:100%;
+    height:rem(538);
+    background-image: url('../images/mobile/image-header.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        color:$color-white;
+        letter-spacing: rem(4);
+        margin-bottom: rem(56);
+        text-align: center;
+    }
+    img{
+        width: auto;
+        height: rem(116);
+    }
+    @include mq($sm-screen){
+        height:rem(800);
+        background-image: url('../images/desktop/image-header.jpg');
+        justify-content: flex-start;
+        padding-top:rem(196);
+        h1{
+            letter-spacing: rem(10);
+            margin-bottom: rem(106);
+        }
+    }
+}

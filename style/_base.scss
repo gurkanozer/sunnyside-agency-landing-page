@@ -1,0 +1,60 @@
+:root {
+    font-size:18px;
+    font-family: $font-secondary;
+    color:$color-vdd-blue;
+}
+
+*,
+*::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:$color-vdd-blue;
+    font-weight: $fw-bold;
+    font-size: rem(16);
+}
+h1{
+    font-size:rem(40);
+    font-weight: $fw-bold;
+    font-family: $font-secondary;
+    @include mq($lg-screen){
+        font-size:rem(54);
+    }
+}
+h2{
+    font-size:rem(32);
+    font-weight: $fw-bold;
+    font-family: $font-secondary;
+    @include mq($lg-screen){
+        font-size:rem(42);
+    }
+}
+h3{
+    font-size:rem(28);
+}
+h4{
+    font-size:rem(16);
+    @include mq($lg-screen){
+        font-size:rem(24);
+    }
+}
+p{
+    font-size:rem(18);
+    font-family: $font-primary;
+}
+.uppercase{
+    text-transform: uppercase;
+}
